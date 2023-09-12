@@ -1,0 +1,100 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registration-heading {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 50px;
+  color: #ea580c;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 4px #bfbfbf;
+  height: 350px;
+  width: 450px;
+}
+.registration-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+
+.label-el {
+  font-family: roboto;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.input-el {
+  height: 40px;
+  font-family: roboto;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.submit-btn {
+  height: 34px;
+  margin: auto;
+  background-color: #ea580c;
+  color: white;
+  font-family: roboto;
+  width: 100px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.err-msg {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ff0b37;
+  margin-bottom: 15px;
+  margin-top: 2px;
+}
+
+.success-img {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.submission-success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 450px;
+  box-shadow: 0px 4px 16px 4px #bfbfbf;
+  border-radius: 15px;
+}
+
+.submit-success-text {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.submit-another-response-btn {
+  height: 38px;
+  background-color: #ea580c;
+  color: #ffffff;
+  font-family: roboto;
+  border: 0;
+  border-radius: 8px;
+  font-size: 12px;
+  width: 180px;
+}
